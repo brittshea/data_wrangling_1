@@ -301,3 +301,11 @@ litters_readr
     ## 10 Con8  #3/5/2/2/95             28.5       NA        20       8       0       8
     ## # … with 39 more rows, and abbreviated variable names ¹​`GD18 weight`,
     ## #   ²​`GD of Birth`, ³​`Pups born alive`, ⁴​`Pups dead @ birth`, ⁵​`Pups survive`
+
+## Exporting Data
+
+Export the mlb sub-table.
+
+``` r
+write_csv(mlb_df, "./data/mlb.subtable.csv")
+```
